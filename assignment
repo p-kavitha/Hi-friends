@@ -1,0 +1,33 @@
+#include<stdio.h>
+main()
+{
+    int i,first,last,mid,n,n1,array[100];
+    printf("enter number of elements");
+    scanf("%d",&n);
+    printf("%d enter integers",n);
+    for(i<0;i<n;i++);
+    scanf("%d",&array[i]);
+    printf("enter value to find");
+    scanf("%d",&n1);
+    last=0;
+    first=n-1;
+    mid=(last+first)/2;
+    while(last<=first)
+    {
+        if(array[mid]<n1)
+        last=mid+1;
+        else if(array[mid]==n1)
+        {
+            printf("%d found at location ",n1,mid+1);
+            }
+            else
+            first=mid-1;
+            mid=(last+first)/2;
+    }
+    if(last>first)
+    printf("%d not found ",n1);
+}
+    
+    }
+    
+}
