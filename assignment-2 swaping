@@ -1,0 +1,14 @@
+#include<stdio.h>
+void swap(int i)
+{
+printf("before adding=%d",i);
+i=i+5;
+printf("after adding=%d",i);
+}
+ main()
+{
+    int a=10;
+    printf("before function call a=%d",a);
+    swap(a);
+    printf("after function call a=%d",a);
+    }
