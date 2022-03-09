@@ -1,0 +1,10 @@
+create table student(sno number(10),sname char(20),sm varchar(10),sp varchar(10),sc varchar(10),stotal varchar(10),savg varchar(10));
+insert into student values(1,'raju',10,20,30,60,30);
+insert into student values(1,'manu',10,20,30,60,30);
+insert into student values(1,'depu',10,20,30,60,30);
+insert into student values(1,'chinnu',10,20,30,60,30);
+insert into student values(1,'hema',10,20,30,60,30);
+insert into student values(1,'vanu',10,20,30,60,30);
+insert into student values(1,'banu',10,20,30,60,30);
+insert into student values(1,'kavi',10,20,30,60,30);
+insert into student values(1,'vani',10,20,30,60,30);
